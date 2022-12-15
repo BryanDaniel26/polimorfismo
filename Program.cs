@@ -114,18 +114,18 @@ class Program
         //Clase Cat
 
         Cat unAnimal = new Cat();
+        unAnimal.setName("Misu");
         Console.WriteLine("\n\tNombre del gato: {0}", unAnimal.getName());
         unAnimal.eat();
-        unAnimal.setName("Misu");
         unAnimal.getName();
         unAnimal.walk();
         unAnimal.play();
 
         //Class Fish
         Fish pez = new Fish();
+        pez.setName("Nemo");
         Console.WriteLine("\n\tNombre del Pez: {0}", pez.getName());
         pez.eat();
-        pez.setName("Nemo");
         pez.getName();
         pez.walk();
         pez.play();
@@ -133,7 +133,7 @@ class Program
         //Clas Spider
         Spider spider = new Spider();
         spider.setName("Peter");
-        Console.WriteLine("\n\tNombre de la araña {0}", spider.getName());
+        Console.WriteLine("\n\tNombre de la araña: {0}", spider.getName());
         spider.eat();
         
     }
